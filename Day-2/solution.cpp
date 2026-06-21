@@ -10,6 +10,7 @@ public:
         for (int j=0;j<=N;j++){
             XOR2=XOR2^j;
         }
+
         return XOR1^XOR2;
     }
 };
